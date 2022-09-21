@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  /* FEITO SEM CRIAR NOVAS ID E CLASS */
+/* 1-O header e o footer devem possuir 40px de altura, e padding de 10px em todas as direções. O header deve ser laranja, e o footer preto. Ambos com letras brancas. */
+
+header{
+    height: 40px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border-bottom: solid black 1px;
+    font-family: Arial;
+}
+footer{
+    height: 40px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+/* 2-O header deve possuir uma borda preta na parte de baixo. */
+
+
+/* 3-A área main deve possuir margin de 15px em todas as direções, padding de 20px em cima e por baixo, e 30px dos lados. Além disso, deve possuir largura de 90vw e altura de 80vh. */
+
+main{
+    margin: 15px;
+    padding: 20px 30px;
+    /*     cima/baixo esq/dir */
+
+    /* padding: 20px 30px 20px 30px; */
+    width: 90vw;
+    height: 80vh;
+}
+
+/* 4- Os articles devem possuir margem de 25px para cima e para baixo. */
+
+article{
+    margin: 25px 0px;
+    /* margin-top: 25px; */
+}
+
+/* 5-A fonte dos cabeçalhos deve ser “Arial”, e a dos parágrafos deve ser “Helvetica”. */
+
+p{
+    font-family: Helvetica;
+}
+
+
+/* 6-Todos os elementos com a classe “destaque” devem estar escritos em laranja. */
+
+.destaque{
+    color: orange
+}
